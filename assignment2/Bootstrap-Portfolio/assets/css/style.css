@@ -1,0 +1,40 @@
+/* HTML Elements  */
+html, body {
+	background: url("../images/oriental.png");
+}
+
+/* Main Content Area */
+
+.container {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.col-md-4 h2 {
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+/* Portfolio Page*/
+.portfolio {
+	margin: 20px;
+}
+
+.portfolio-thumb img:hover {
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+.text-block {
+	position: relative;
+	top: -75px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: .5em;
+	color: #ffffff;
+	z-index: 1000;
+}
+
+.footer {
+	padding: 2em;
+}
