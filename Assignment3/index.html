@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman, the Hockey Edition</title>
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+  
+    <div class="jumbotron">
+      <h1 class="text-center">
+      <strong>HANGMAN</strong>
+      </h1>
+      <h2 class="text-center">
+        Hockey Edition
+      </h2>
+    </div>
+
+    <div class="row is-flex">
+        <div class="col-sm-6 left-col">
+
+          <h3 class="caption" id="winnerMessage">Can you guess this hockey player?</h3>
+          <figure class="images">
+            <img src="assets/images/crosby.jpg" id="CROSBY" alt="Sidney Crosby" width="400" height="300">
+            <img src="assets/images/hull.jpg" id="HULL" alt="Bobby Hull">
+            <img src="assets/images/lafleur.jpg" id="LAFLEUR" alt="Guy Lafleur">
+            <img src="assets/images/messier.jpg" id="MESSIER" alt="Mark Messier">
+            <img src="assets/images/beliveau.jpg" id="BELIVEAU" alt="Jean Beliveau">
+            <img src="assets/images/richard.jpg" id="RICHARD" alt="Maurice Richard">
+            <img src="assets/images/lemieux.jpg" id="LEMIEUX" alt="Mario Lemieux">
+            <img src="assets/images/orr.jpg" id="ORR" alt="Bobby Orr">
+            <img src="assets/images/gretzky.jpg" id="GRETZKY" alt="Wayne Gretzky">
+            <img src="assets/images/howe.jpg" id="HOWE" alt="Gordie Howe">
+            <img src="assets/images/clark.jpg" id="CLARK" alt="Wendal Clark">
+            <img src="assets/images/gilmour.jpg" id="GILMOUR" alt="Doug Gilmour">
+            <img src="assets/images/matthews.jpg" id="MATTHEWS" alt="Auston Matthews">
+            <img src="assets/images/tavares.jpg" id="TAVARES" alt="John Tavares">
+            <img src="assets/images/stanleycup.jpg" id="STANLEYCUP" alt="Stanley Cup">
+            <img src="assets/images/gameover.jpg" id="GAMEOVER" alt="Game Over">
+          </figure> 
+        </div>
+
+        <div class="col-sm-6 right-col">
+          <h3>Press any letter to start playing!</h3>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+              <p>Wins:</p>
+              <p id="wins">0</p>
+            </div>
+              
+            <div class="col-md-3">
+              <p>Losses:</p>
+              <p id="losses">0</p>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+
+          <h2>Current Word</h2>
+  
+          <p id="letters"></p>
+  
+          <h3>Lives Remaining</h3>
+          <p id="lives"></p>
+  
+          <h3>Letters Guessed:</h3>
+          <p id="guesses">--</p>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
